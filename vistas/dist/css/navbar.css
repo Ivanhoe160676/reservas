@@ -1,0 +1,60 @@
+.brand-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.brand-text {
+    display: none; /* Opcional: puedes ocultar el texto del nombre de la App si solo deseas mostrar el logo */
+}
+
+.user-panel {
+    padding: 10px;
+}
+
+.user-panel img {
+    width: 45px;
+    height: 45px;
+}
+
+/* Estilo para el texto de los selectores en el sidebar oscuro */
+.sidebar {
+    color: white;
+}
+
+/* Estilo para el texto de los checkboxes */
+.form-check-label {
+    color: white;
+}
+
+/* Estilo para el texto de los checkboxes cuando están en hover */
+.form-check-input:hover + .form-check-label::before {
+    color: white;
+}
+
+/* Estilo para el texto de los checkboxes cuando están activos (seleccionados) */
+.form-check-input:checked + .form-check-label::before {
+    color: white;
+}
+
+/* Estilo para el texto de los checkboxes cuando están desactivados (deshabilitados) */
+.form-check-input:disabled + .form-check-label {
+    color: #6c757d; /* Puedes ajustar este color según tus preferencias */
+}
+
+/* Estilo para el texto de los checkboxes cuando están desactivados (deshabilitados) en hover */
+.form-check-input:disabled:hover + .form-check-label {
+    color: #6c757d; /* Puedes ajustar este color según tus preferencias */
+}
+
+/* Estilo para el texto de los checkboxes cuando están desactivados (deshabilitados) y están seleccionados */
+.form-check-input:disabled:checked + .form-check-label::before {
+    color: #6c757d; /* Puedes ajustar este color según tus preferencias */
+}
+
+.fc-nonbusiness {
+    background-color: #f8d7da; /* Puedes ajustar este color según tus preferencias */
+    color: #721c24; /* Puedes ajustar este color según tus preferencias */
+    opacity: 0.5; /* Puedes ajustar la opacidad según tus preferencias */
+}
